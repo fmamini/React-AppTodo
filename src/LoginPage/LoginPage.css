@@ -1,0 +1,133 @@
+/* @media screen and (max-width: 1200px) {
+  .login-form {
+    padding: 0 350px !important;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .login-form {
+    padding: 0 300px !important;
+  }
+}
+@media screen and (max-width: 900px) {
+  .login-form {
+    padding: 0 200px !important;
+  }
+}
+@media screen and (max-width: 650px) {
+  .login-form {
+    padding: 0 100px !important;
+  }
+} */
+.login-form {
+  background-image: url("../assets/img/bg-01.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding-top: 25px;
+}
+.login-white {
+  margin: 0 auto;
+  background-color: white;
+  border: 1px solid white;
+  width: 480px;
+  height: 575px;
+  border-radius: 10px;
+  overflow: hidden;
+  padding-top: 35px;
+}
+
+.login-form h2 {
+  text-align: center;
+  font-family: monospace !important;
+}
+.login-form h6 {
+  margin-top: 20px;
+  font-weight: 600;
+  text-align: center;
+  display: block;
+  font-family: monospace !important;
+  font-size: 39px;
+  color: #333;
+  line-height: 1.2;
+}
+.login-form .second {
+  color: #9858f3;
+}
+@font-face {
+  font-family: "vazir";
+  src: url("../assets/font/Vazir.woff") format("woff");
+}
+* {
+  font-family: "vazir" !important;
+  text-align: right;
+}
+.login-form form {
+  margin-top: 35px;
+  padding: 0 60px;
+}
+.login-form form .form-group {
+  text-align: left;
+}
+.login-form .form-control {
+  padding: 9px 10px;
+  border-radius: 3px;
+  border: 1px solid #cbd6e2;
+  font-size: 14px;
+  transition: all 0.15s ease-out;
+  background-color: #f5f8fa;
+  color: #3a4147;
+  display: block;
+  height: 40px;
+  border-radius: 20px;
+  line-height: 22px;
+  text-align: left;
+  vertical-align: middle;
+  width: 100%;
+  outline: none !important;
+}
+.login-form label {
+  margin-bottom: 10px !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  color: #33475b;
+}
+.login-form .btn-primary:hover {
+  background: #836bf0;
+  transition: 1s;
+}
+.login-form .btn-link:hover {
+  background-color: #fa01ff;
+  transition: 1s;
+}
+.login-form .btn-primary {
+  background: #27b8e4;
+  padding: 10px;
+  outline: none;
+  border-radius: 20px;
+  width: 100%;
+  margin-top: 20px;
+  border: none;
+}
+.login-form .btn-link {
+  width: 100%;
+  background-color: #be36f8;
+  padding: 10px;
+  outline: none;
+  border-radius: 20px;
+  width: 100%;
+  margin-top: 20px;
+  border: none;
+  color: #fff;
+  text-decoration: none;
+}
+.alert-danger {
+  color: #a82523;
+  background-color: #f6796421;
+  border-color: #ebccd1;
+  text-align: center;
+  margin: 0;
+}
+.help-block {
+  color: red !important;
+  text-align: left;
+}

@@ -1,0 +1,21 @@
+.titleitem .list-title .title {
+  color: #0078d7;
+  float: left;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 6px 8px;
+  margin-top: 45px;
+}
+
+.main-background {
+  direction: rtl;
+}
+main {
+  margin-left: 64px;
+  padding: 15px 20px 0px;
+  transition: all 0.2s;
+}

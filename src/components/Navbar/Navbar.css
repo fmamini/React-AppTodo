@@ -1,0 +1,81 @@
+.navbar {
+  background-color: #0078d7;
+  border-radius: unset;
+  height: 50px;
+}
+.navbars {
+  position: fixed;
+  width: 100%;
+}
+.navbar .todo .iconmenu {
+  font-size: 24px;
+  color: white;
+  margin-left: -6px;
+  float: left;
+}
+.navbar span {
+  color: white;
+  padding-left: 25px;
+  font-size: 17px;
+  font-weight: 600;
+  float: left;
+}
+.search .input-search {
+  text-align: center;
+}
+.input-search input {
+  outline: none;
+  width: 45%;
+  background-color: #c3dcf7;
+  border: 1px solid #c3dcf7;
+  height: 32px;
+  border-radius: 3px;
+  margin-left: 83px;
+  text-align: left;
+  padding-left: 5px;
+}
+.btn-search {
+  position: absolute;
+  left: 228px;
+}
+.btn-search button {
+  height: 32px;
+  outline: none;
+  padding: 0px 10px;
+  border: 1px solid #c3dcf7;
+  background-color: #c3dcf7;
+  border-radius: 3px;
+}
+.btn-search .iconsearch {
+  color: #0078d7;
+  font-size: 17px;
+}
+.setting {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.iconsetting {
+  color: white;
+  font-size: 24px;
+  margin-right: 15px;
+}
+
+.dropdown {
+  border-radius: 5px;
+}
+
+.btn {
+  border: none;
+  background-color: #abbdf3;
+}
+
+.btn-secondary.focus,
+.btn-secondary:focus {
+  background-color: #abbdf3;
+  border-color: #abbdf3;
+}
+
+.btn-secondary:hover {
+  background-color: #abbdf3;
+  border-color: #abbdf3;
+}

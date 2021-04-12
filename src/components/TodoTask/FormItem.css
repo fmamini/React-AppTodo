@@ -1,0 +1,52 @@
+@media screen and (max-width: 720px) {
+  .PanelContent {
+    display: grid;
+  }
+  .filter-tasks {
+    margin-top: 0px !important;
+  }
+  .filter-tasks.Complete {
+    margin-top: 40px !important;
+  }
+  .filter-tasks {
+    width: 106px;
+  }
+}
+
+.form-control {
+  text-align: left;
+  border: none;
+  border-bottom: 1px solid;
+  border-radius: unset;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+.filter-tasks {
+  margin-top: 40px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  outline: none !important;
+  border: 1px solid white;
+  border-radius: 7px;
+  padding: 5px 15px;
+  color: white;
+}
+.filter-tasks.Complete {
+  background-color: #93abf3;
+  margin-right: 0px;
+}
+.filter-tasks.Incomplete {
+  background-color: #74bd74;
+}
+.filter-tasks.Alltasks {
+  background-color: #0078d7;
+}
+.btn.btn-success{
+  outline: unset !important;
+}
+.Toastify__toast-body{
+  font-size: 13px;
+}

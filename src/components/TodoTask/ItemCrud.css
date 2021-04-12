@@ -1,0 +1,53 @@
+.item-crud ul {
+  list-style: none;
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+}
+
+.item-crud ul item-content {
+  color: red;
+}
+.crud-edit,
+.crud-delete {
+  padding: 5px 12px;
+  border: none;
+  outline: none;
+  color: #fff;
+  margin-left: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.item-crud .crud-edit {
+  color: #5cb85c;
+  font-size: 45px;
+}
+.item-crud .crud-delete {
+  color: red;
+  font-size: 45px;
+}
+ul.row-item li {
+  font-family: monospace;
+}
+
+.row-item .title {
+  text-align: left;
+}
+.checkbox {
+  float: left;
+  margin-top: 10px;
+}
+
+.d-lineText {
+  color: #c1e1e2;
+  text-decoration: line-through;
+}
+.edit-task , .delete-task{
+border:none;
+outline: unset !important;
+background-color: transparent;
+}
+.edit-task:disabled .crud-edit{
+  color: #ccc;
+  cursor: not-allowed;
+}

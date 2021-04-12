@@ -1,0 +1,31 @@
+textarea{
+    height: 80px;
+    outline: none;
+    border:1px solid #ccc;
+    width:100%
+}
+.btn-edit{
+    padding: 5px 15px;
+    border:none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #5cb85c;
+    color:#fff;
+    float: right;
+}
+ul.header-items{
+    list-style: none;
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+    text-align: center; 
+    color: #eee;
+    font-size: 16px;
+    padding-top: 6px;
+    background-color: #4FC3A1;
+    margin-top: 20px;
+}
+ul.header-items li{
+    color:#fff;
+    font-family: cursive;
+}
+    
